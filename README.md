@@ -52,6 +52,7 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [tfe_organization.examples](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/organization) | resource |
 | [tfe_organization.this](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/organization) | resource |
 | [tfe_project.default_project](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/project) | resource |
 | [tfe_workspace.bootstrap](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/workspace) | resource |
@@ -63,6 +64,7 @@ No modules.
 | <a name="input_tfe_hostname"></a> [tfe\_hostname](#input\_tfe\_hostname) | The hostname of the HCP Terraform platform. | `string` | n/a | yes |
 | <a name="input_tfe_organization_email"></a> [tfe\_organization\_email](#input\_tfe\_organization\_email) | The email address of the HCP Terraform organization admin. | `string` | n/a | yes |
 | <a name="input_tfe_organization_name"></a> [tfe\_organization\_name](#input\_tfe\_organization\_name) | The name of the HCP Terraform organization to manage. | `string` | n/a | yes |
+| <a name="input_tfe_organization_names"></a> [tfe\_organization\_names](#input\_tfe\_organization\_names) | A list of HCP Terraform organization names to manage. | `list(string)` | n/a | yes |
 | <a name="input_tfe_token"></a> [tfe\_token](#input\_tfe\_token) | The token used to authenticate the TFE provider. | `string` | n/a | yes |
 | <a name="input_tfe_workspace_bootstrap_name"></a> [tfe\_workspace\_bootstrap\_name](#input\_tfe\_workspace\_bootstrap\_name) | The name of the workspace used to bootstrap the HCP Terraform organization. | `string` | `"hcp-bootstrap"` | no |
 
