@@ -1,5 +1,12 @@
 # terraform-tfe-control-team
-An infrastructure as code repository for the central control team managing a TFE organization.
+An infrastructure as code repository for the central control team managing an HCP Terraform organization.
+
+## Authentication to HCP Terraform
+In order to authenticate the `tfe` provider used in this repository, follow the [Authentication](https://registry.terraform.io/providers/hashicorp/tfe/latest/docs#authentication)
+instructions in the provider documentation.
+
+The quickest way to get started would be to set the `TFE_TOKEN` environment variable as a user token generated
+for your user.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
