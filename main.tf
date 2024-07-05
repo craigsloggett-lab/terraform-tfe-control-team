@@ -13,3 +13,11 @@ resource "tfe_workspace" "bootstrap" {
   project_id   = tfe_project.default_project.id
   name         = var.tfe_workspace_bootstrap_name
 }
+
+# Testing
+
+resource "tfe_organization" "examples" {
+  for_each = toset(var.tfe_organization_names)
+  name     = each.key
+  email    = var.tfe_organization_email
+}

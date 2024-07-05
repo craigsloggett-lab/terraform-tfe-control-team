@@ -23,3 +23,10 @@ variable "tfe_workspace_bootstrap_name" {
   description = "The name of the workspace used to bootstrap the HCP Terraform organization."
   default     = "hcp-bootstrap"
 }
+
+# Testing
+
+variable "tfe_organization_names" {
+  type        = list(string)
+  description = "A list of HCP Terraform organization names to manage."
+}
