@@ -1,0 +1,5 @@
+tfe_token                    = "TOKEN"
+tfe_hostname                 = "tfe.hashidemos.io"
+tfe_organization_name        = "craigsloggett-lab"
+tfe_organization_email       = "admin@tfe.hashidemos.io"
+tfe_workspace_bootstrap_name = "hcp-bootstrap"
