@@ -36,13 +36,13 @@ tfe_workspace_bootstrap_name = "hcp-bootstrap"
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.5 |
-| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.56.0 |
+| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.57.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.56.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.57.0 |
 
 ## Modules
 
@@ -52,10 +52,10 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [tfe_organization.examples](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/organization) | resource |
-| [tfe_organization.this](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/organization) | resource |
-| [tfe_project.default_project](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/project) | resource |
-| [tfe_workspace.bootstrap](https://registry.terraform.io/providers/hashicorp/tfe/0.56.0/docs/resources/workspace) | resource |
+| [tfe_organization.examples](https://registry.terraform.io/providers/hashicorp/tfe/0.57.0/docs/resources/organization) | resource |
+| [tfe_organization.this](https://registry.terraform.io/providers/hashicorp/tfe/0.57.0/docs/resources/organization) | resource |
+| [tfe_project.default_project](https://registry.terraform.io/providers/hashicorp/tfe/0.57.0/docs/resources/project) | resource |
+| [tfe_workspace.bootstrap](https://registry.terraform.io/providers/hashicorp/tfe/0.57.0/docs/resources/workspace) | resource |
 
 ## Inputs
 
