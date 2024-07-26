@@ -7,7 +7,7 @@ An infrastructure as code repository for the central control team managing a TFE
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
-| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.56.0 |
+| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.57.0 |
 
 ## Providers
 
