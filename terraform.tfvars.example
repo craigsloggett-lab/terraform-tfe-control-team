@@ -1,0 +1,15 @@
+tfe_token                    = "TOKEN"
+tfe_hostname                 = "tfe.hashidemos.io"
+tfe_organization_name        = "craigsloggett-lab"
+tfe_organization_email       = "admin@tfe.hashidemos.io"
+tfe_workspace_bootstrap_name = "hcp-bootstrap"
+
+# Testing
+
+tfe_organization_names = [
+  "example-org-1",
+  "example-org-2",
+  "example-org-3",
+  "example-org-4",
+  "example-org-5"
+]
